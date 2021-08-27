@@ -1,0 +1,16 @@
+<section>
+  <div class="container">
+    <div class="column">
+      AA: {{email}}
+      <label for="email">Email</label>
+      <input type="email" name="email" [(ngModel)]="email" placeholder="Ingresa tu correo electrónico">
+    </div>
+    <div class="column">
+      <label for="psw">Contraseña</label>
+      <input type="password" name="psw" [(ngModel)]="psw" placeholder="Ingresa tu contraseña">
+    </div>
+    <div class="btns">
+      <a (click)="ingresar()">Ingresar</a>
+    </div>
+  </div>
+</section>

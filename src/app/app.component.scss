@@ -1,0 +1,17 @@
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid;
+    .column {
+        display: flex;
+        flex-direction: column;
+        padding: 16px 0;
+    }
+    .btns {
+        padding: 12px 0;
+        text-align: center;
+        background-color: lightseagreen;
+        color: white;
+        cursor: pointer;
+    }
+}
